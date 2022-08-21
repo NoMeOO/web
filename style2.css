@@ -1,0 +1,101 @@
+@font-face {
+    font-family: aviny;
+    src: url(Aviny2-1.ttf);
+}
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+.main-cantainer {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0px auto;
+    font-size: 1em;
+}
+header , footer {
+    border-radius: 20px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 20px;
+}
+header nav {
+    display: flex;
+}
+header nav a {
+    text-decoration: none;
+    border: 1px solid  white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 9px;
+    color: white;
+}
+#span3:hover {
+    color: rgb(131, 131, 253);
+    text-decoration: 1.5px underline red;
+
+}
+#span4:hover {
+    color: rgb(131, 131, 253);
+    text-decoration: 1.5px underline red;
+
+}
+#span5:hover {
+    color: rgb(131, 131, 253);
+    text-decoration: 1.5px underline red;
+
+}
+main {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+}
+main section {
+    margin: 0px;
+    overflow: hidden;
+}
+main .content{
+    padding: 20px;
+}
+main .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px;
+}
+main .menu span {
+    border-bottom: 1px solid #444;
+    margin-bottom: 8px;
+}
+#ww {
+    
+    text-decoration: underline black;
+    text-align: right;
+    margin: 0px auto;
+    font-family: aviny;
+    color: red;
+    font-size: 30px;
+}
+#wellcome {
+    margin: 10px auto;
+    font-size: 60px;
+}
+#editor {
+    border-radius: 20px;
+    text-align: right center;
+    
+    background-color: black;
+    color: aqua;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.bbc {
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .qq {
+        
+    }
+}
+
+    
+
